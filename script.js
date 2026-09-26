@@ -6,7 +6,7 @@ const players = document.getElementById("players");
 
 let playerData = [];
 
-// ====================
+// ===================
 // 遊戲狀態
 // ====================
 
@@ -627,7 +627,7 @@ function useAntidote() {
 
 function skipAntidote() {
 
-    witchSkillTurn();
+    continueAfterWitch();
 
 }
 
