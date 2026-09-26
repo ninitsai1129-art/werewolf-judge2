@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+#players div {
+    margin: 10px;
+}
+
+input,
+select,
+button {
+    margin: 5px;
+    padding: 6px;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* ==================== */
+/* 玩家狀態 */
+/* ==================== */
+
+#alivePlayers {
+    margin: 30px auto;
+    padding: 15px;
+
+    max-width: 500px;
+
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+#aliveList {
+    line-height: 1.8;
+}
+
+
+/* ==================== */
+/* 遊戲區域 */
+/* ==================== */
+
+#game {
+    margin-top: 30px;
+}

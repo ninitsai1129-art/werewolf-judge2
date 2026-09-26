@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>狼人殺法官助手</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🐺 狼人殺法官助手</h1>
+
+    <h2>玩家設定</h2>
+
+
+    <!-- ==================== -->
+    <!-- 遊戲人數 -->
+    <!-- ==================== -->
+
+    <div>
+
+        <label>
+            👥 遊戲人數：
+        </label>
+
+        <select id="playerCount" onchange="createPlayers()">
+
+            <option value="4">4 人</option>
+            <option value="5">5 人</option>
+            <option value="6" selected>6 人</option>
+            <option value="7">7 人</option>
+            <option value="8">8 人</option>
+
+        </select>
+
+    </div>
+
+
+    <!-- ==================== -->
+    <!-- 玩家設定 -->
+    <!-- ==================== -->
+
+    <div id="players"></div>
+
+
+    <button onclick="startGame()">
+        🎮 開始遊戲
+    </button>
+
+
+    <!-- ==================== -->
+    <!-- 存活玩家 -->
+    <!-- ==================== -->
+
+    <div id="alivePlayers">
+
+        <h2>👥 玩家狀態</h2>
+
+        <div id="aliveList">
+            尚未開始遊戲
+        </div>
+
+    </div>
+
+
+    <!-- ==================== -->
+    <!-- 遊戲區域 -->
+    <!-- ==================== -->
+
+    <div id="game"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
